@@ -354,6 +354,7 @@
 "Assets/Scripts/Jump.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/Projectile.cs"
+"Assets/Scripts/StartScene.cs"
 "Assets/Scripts/Teleport.cs"
 "Assets/Scripts/Throwable.cs"
 -langversion:9.0
