@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54609
+54750
 Successfully changed project path to: /Users/arunmathews/Documents/GitHub/GravityTrails/AM-GravityTrails
 /Users/arunmathews/Documents/GitHub/GravityTrails/AM-GravityTrails
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/arunmathews/Documents/GitHub/Gravit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704441820800] Host "[IP] 10.0.0.144 [Port] 0 [Flags] 2 [Guid] 2232890136 [EditorId] 2232890136 [Version] 1048832 [Id] OSXEditor(0,AIM-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704441820800] Host "[IP] 10.0.0.144 [Port] 0 [Flags] 2 [Guid] 1935654967 [EditorId] 1935654967 [Version] 1048832 [Id] OSXEditor(0,AIM-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704441820800] Host "[IP] 10.0.0.144 [Port] 0 [Flags] 2 [Guid] 2232890136 [EditorId] 2232890136 [Version] 1048832 [Id] OSXEditor(0,AIM-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704441820800] Host "[IP] 10.0.0.144 [Port] 0 [Flags] 2 [Guid] 1935654967 [EditorId] 1935654967 [Version] 1048832 [Id] OSXEditor(0,AIM-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 123.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 122.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,53 +73,53 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56183
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56555
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001415 seconds.
+Registered in 0.001258 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 91.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
+- Completed reload, in  0.945 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1086ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (945ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (709ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (588ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (406ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (140ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005226 seconds.
+Registered in 0.002675 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/arunmathews/Documents/GitHub/GravityTrails/AM-GravityTrails/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/arunmathews/Documents/GitHub/GravityTrails/AM-GravityTrails/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/arunmathews/Documents/GitHub/GravityTrails/AM-GravityTrails/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -141,44 +141,101 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  7.173 seconds
+- Completed reload, in  1.933 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7176ms)
-		BeginReloadAssembly (272ms)
+	ReloadAssembly (1934ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (6669ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1602ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (730ms)
+			SetupTypeCache (434ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (125ms)
-			SetupLoadedEditorAssemblies (5537ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (933ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (5182ms)
-				ProcessInitializeOnLoadMethodAttributes (200ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (814ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (157.3 KB). Loaded Objects now: 3679.
-Memory consumption went from 109.2 MB to 109.0 MB.
-Total: 23.043462 ms (FindLiveObjects: 0.544331 ms CreateObjectMapping: 0.356246 ms MarkObjects: 21.925711 ms  DeleteObjects: 0.215243 ms)
+Unloading 37 unused Assets / (157.2 KB). Loaded Objects now: 3679.
+Memory consumption went from 108.8 MB to 108.7 MB.
+Total: 15.003237 ms (FindLiveObjects: 0.362258 ms CreateObjectMapping: 0.188975 ms MarkObjects: 14.236057 ms  DeleteObjects: 0.176331 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152577.747860 seconds.
+  path: Assets/Artwork/Key1.png
+  artifactKey: Guid(5347f2406f41610479e67cfc3dd09138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Key1.png using Guid(5347f2406f41610479e67cfc3dd09138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a423b23c1b8405797203ac121b917d0c') in 0.243460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Artwork/nether portal thing.png
+  artifactKey: Guid(42d2dc843f7c345539b9356334672b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/nether portal thing.png using Guid(42d2dc843f7c345539b9356334672b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5fa1d1e0ecef08f6444d648dabc100') in 0.018691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Artwork/Key2.png
+  artifactKey: Guid(61ae045ba25f7964b8f6610fbe9c7557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Key2.png using Guid(61ae045ba25f7964b8f6610fbe9c7557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832f61a0e26240b0d09bbd61faa5489a') in 0.022204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Artwork/shuriken.png
+  artifactKey: Guid(299f2bf85a7e74b49b055d0035d5eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/shuriken.png using Guid(299f2bf85a7e74b49b055d0035d5eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbf5ba5ea63865503c94b643b7258d0') in 0.028314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Artwork/Key3.png
+  artifactKey: Guid(701127aad58a8b841a7453385e9d67dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Key3.png using Guid(701127aad58a8b841a7453385e9d67dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdbfd49dbd8feb310171711019164a9') in 0.026906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Artwork/StartScreenAvatar.prefab
+  artifactKey: Guid(d230b346aa66a9a4bbf3d79741287643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/StartScreenAvatar.prefab using Guid(d230b346aa66a9a4bbf3d79741287643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002c5896d89900771f880301627f555e') in 0.325153 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (117.0 KB). Loaded Objects now: 3700.
+Memory consumption went from 55.7 MB to 55.6 MB.
+Total: 15.952114 ms (FindLiveObjects: 0.412518 ms CreateObjectMapping: 0.277916 ms MarkObjects: 15.121877 ms  DeleteObjects: 0.138322 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -191,51 +248,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 152100.530707 seconds.
-  path: Assets/Artwork/Key1.png
-  artifactKey: Guid(5347f2406f41610479e67cfc3dd09138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Artwork/Key1.png using Guid(5347f2406f41610479e67cfc3dd09138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65c4ee169a8f72ba1720750981a214a') in 1.385750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Artwork/nether portal thing.png
-  artifactKey: Guid(42d2dc843f7c345539b9356334672b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Artwork/nether portal thing.png using Guid(42d2dc843f7c345539b9356334672b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480936f30e1f4d9900be8e5daf81ffbf') in 0.019816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Artwork/Key2.png
-  artifactKey: Guid(61ae045ba25f7964b8f6610fbe9c7557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Artwork/Key2.png using Guid(61ae045ba25f7964b8f6610fbe9c7557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea818df1a1ce7c1328a8ee947fea01a6') in 0.023838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Artwork/shuriken.png
-  artifactKey: Guid(299f2bf85a7e74b49b055d0035d5eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Artwork/shuriken.png using Guid(299f2bf85a7e74b49b055d0035d5eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44b1536e44e9f20624b6cdafdc431d9') in 0.040706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Artwork/Key3.png
-  artifactKey: Guid(701127aad58a8b841a7453385e9d67dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Artwork/Key3.png using Guid(701127aad58a8b841a7453385e9d67dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dda3a10930306f4be541eaa634b9d0') in 0.027339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Artwork/StartScreenAvatar.prefab
-  artifactKey: Guid(d230b346aa66a9a4bbf3d79741287643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Artwork/StartScreenAvatar.prefab using Guid(d230b346aa66a9a4bbf3d79741287643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9199e418985fcd485376696036da9f6') in 1.345906 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003142 seconds.
+Registered in 0.004227 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/arunmathews/Documents/GitHub/GravityTrails/AM-GravityTrails/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/arunmathews/Documents/GitHub/GravityTrails/AM-GravityTrails/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/arunmathews/Documents/GitHub/GravityTrails/AM-GravityTrails/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -257,40 +278,40 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.881 seconds
+- Completed reload, in  2.060 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1882ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (2061ms)
+		BeginReloadAssembly (242ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (1567ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (1653ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
+			SetupTypeCache (472ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (716ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (689ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (587ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (584ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (137.0 KB). Loaded Objects now: 3714.
-Memory consumption went from 119.5 MB to 119.4 MB.
-Total: 12.858692 ms (FindLiveObjects: 0.334052 ms CreateObjectMapping: 0.173206 ms MarkObjects: 12.217580 ms  DeleteObjects: 0.132456 ms)
+Unloading 19 unused Assets / (117.1 KB). Loaded Objects now: 3714.
+Memory consumption went from 119.7 MB to 119.6 MB.
+Total: 12.411019 ms (FindLiveObjects: 0.211432 ms CreateObjectMapping: 0.133849 ms MarkObjects: 11.879926 ms  DeleteObjects: 0.184417 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
